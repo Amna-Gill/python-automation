@@ -1,18 +1,17 @@
-# Python File Automation 
+# Python Automation
 
-This project contains a Python script that scans a folder and counts files by type (PDF, images, others). 
+## File Counting Automation Script
 
-## What the script does
-- Reads a folder path
-- Counts files safely 
-- Categorizes files by extension
+This script scans a folder on your system and:
+- Counts total files
+- Categorizes files by type (PDF, images, others)
+- Prints a summary report in the terminal
 
-## How to run 
-1. Open the project folder in VS Code 
-2. Run the script using:
+### Technologies Used
+- Python
+- os module
+
+### How to Run
+1. Update the folder path in the script
+2. Run:
    python count_files.py
-
-## Skills used 
-- Python 
-- File handling 
-- Loops and conditionals
